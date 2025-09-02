@@ -169,7 +169,6 @@ def main():
         print("5. 退出")
         
         choice = input("请选择操作: ").strip()
-        
         if choice == '1':
             register_user(users)
         elif choice == '2':
